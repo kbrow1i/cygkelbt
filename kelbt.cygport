@@ -1,0 +1,16 @@
+NAME="kelbt"
+VERSION=0.16
+RELEASE=1
+
+HOMEPAGE="http://freecode.com/projects/kelbt" # Not up to date.
+SRC_URI="https://www.colm.net/files/${NAME}/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="https://src.fedoraproject.org/cgit/rpms/kelbt.git/plain/kelbt-signed-char.diff"
+
+CATEGORY="Devel"
+SUMMARY="Backtracking LR parser generator"
+DESCRIPTION="Kelbt generates backtracking LALR(1) parsers.  Where traditional
+LALR(1) parser generators require static resolution of shift/reduce
+conflicts, Kelbt generates parsers that handle conflicts by
+backtracking at runtime.  Kelbt is able to generate a parser for any
+context-free grammar that is free of hidden left recursion."
+
