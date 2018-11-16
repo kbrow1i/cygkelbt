@@ -1,0 +1,17 @@
+Subject: kelbt 0.16-1
+Date: Thu, 15 Nov 2018 23:56:26 +0000
+Message-Id: <announce.20181115185533.12004-1-kbrown@cornell.edu>
+The following package has been uploaded to the Cygwin distribution:
+
+* kelbt-0.16-1
+
+Kelbt generates backtracking LALR(1) parsers.  Where traditional
+LALR(1) parser generators require static resolution of shift/reduce
+conflicts, Kelbt generates parsers that handle conflicts by
+backtracking at runtime.  Kelbt is able to generate a parser for any
+context-free grammar that is free of hidden left recursion.
+
+This is a new package in the Cygwin distribution.
+
+Ken Brown
+Cygwin's kelbt maintainer
